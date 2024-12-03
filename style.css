@@ -15,6 +15,7 @@ body {
     background-color: #4a4a4a;
     color: white;
     padding: 10px 20px;
+      border:solid red;
 /*       width:100%; */
   }
   
@@ -173,6 +174,19 @@ body {
     color: white;
     font-size: 6px;
     width:100%;
+  }
+
+    .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+  }
+
+    .logo {
+    font-size: 15px;
+    font-weight: bold;
   }
 }
 
