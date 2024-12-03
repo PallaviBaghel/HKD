@@ -167,4 +167,13 @@ body {
     text-align: center;
     padding: 10px 20px;
   }
+
+@media screen and (max-width: 320px) {
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+  }
+  
+}
   
